@@ -1,38 +1,69 @@
-# Wether App
-## Install IT:
-`pip install weatherapibyAli`
+# Weather App
 
-## Get an API Key:
-[Click here to get your API Key](https://openweathermap.org/)
-Register on the page, then click your username at the top. Select "My API keys" and copy the default API key.
+A simple Python app to get weather data using the OpenWeather API.
 
-## Example Code:
+---
+
+## Installation
+
+```bash
+pip install openweatherappapi
+```
+
+---
+
+## Get an API Key
+
+1. [Click here to get your API Key](https://home.openweathermap.org/users/sign_up)
+2. Register on the page.
+3. Click your username at the top.
+4. Select **My API keys** and copy the default API key.
+
+---
+
+## Example Usage
+
 ```python
-from weatherapibyAli import WeatherApp
+from openweatherappapi import WeatherApp
+
 WeatherApp.run("Your Api Key")
 ```
 
-## Py to EXE Tutorial
+---
 
-You can convert your Python script to a Windows executable using the `auto-py-to-exe` package. Here’s how:
+## Convert Python Script to EXE
 
-1. **Install auto-py-to-exe:**
-    ```
-    pip install auto-py-to-exe
-    ```
+You can convert your Python script to a Windows executable using the `auto-py-to-exe` package.
 
-2. **Launch auto-py-to-exe:**
-    ```
-    auto-py-to-exe
-    ```
+### 1. Install auto-py-to-exe
 
-3. **Configure your build:**
-    - In the GUI, select your Python script.
-    - Choose "One File" to bundle everything into a single executable.
-    - Adjust other settings as needed.
+```bash
+pip install auto-py-to-exe
+```
 
-4. **Start the build:**
-    - Click the "Convert .py to .exe" button.
-    - After the process completes, you’ll find the executable in the `output` folder.
+### 2. Launch auto-py-to-exe
+
+```bash
+auto-py-to-exe
+```
+
+### 3. Configure Your Build
+
+- In the GUI, select your Python script.
+- Choose **One File** to bundle everything into a single executable.
+- Adjust other settings as needed.
+
+### 4. Start the Build
+
+- Click the **Convert .py to .exe** button.
+- After the process completes, you’ll find the executable in the output folder.
 
 For more details, check the [auto-py-to-exe documentation](https://github.com/brentvollebregt/auto-py-to-exe).
+
+---
+
+## Contacts
+
+- [YouTube](https://www.youtube.com/@alikushbaev3)
+- [Telegram](https://t.me/ALIKUSHBAEVYT)
+- [Discord](https://discord.gg/nEYmfYQWcw)
