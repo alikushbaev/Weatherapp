@@ -1,3 +1,74 @@
+# -- RU --
+# Приложение «Погода»
+
+Простое приложение Python для получения данных о погоде с помощью API OpenWeather.
+
+---
+
+## Установка
+
+```bash
+pip install openweatherappapi
+```
+
+---
+
+## Получить ключ API
+
+1. [Нажмите здесь, чтобы получить ключ API](https://home.openweathermap.org/users/sign_up)
+2. Зарегистрируйтесь на странице.
+3. Щелкните свое имя пользователя вверху.
+4. Выберите **Мои ключи API** и скопируйте ключ API по умолчанию.
+
+---
+
+## Пример использования
+
+```python
+from openweatherappapi import WeatherApp
+
+WeatherApp.run("Ваш ключ API")
+```
+
+---
+
+## Преобразование скрипта Python в EXE
+
+Вы можете преобразовать скрипт Python в исполняемый файл Windows с помощью пакета `auto-py-to-exe`.
+
+### 1. Установите auto-py-to-exe
+
+```bash
+pip install auto-py-to-exe
+```
+
+### 2. Запустите auto-py-to-exe
+
+```bash
+auto-py-to-exe
+```
+
+### 3. Настройте сборку
+
+- В графическом интерфейсе выберите скрипт Python.
+- Выберите **Один файл**, чтобы объединить все в один исполняемый файл.
+- При необходимости измените другие параметры.
+
+### 4. Запустите сборку
+
+- Нажмите кнопку **Преобразовать .py в .exe**.
+- После завершения процесса вы найдете исполняемый файл в выходной папке.
+
+Для получения более подробной информации ознакомьтесь с [документацией auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe).
+
+---
+
+## Контакты
+
+- [YouTube](https://www.youtube.com/@alikushbaev3)
+- [Telegram](https://t.me/ALIKUSHBAEVYT)
+- [Discord](https://discord.gg/nEYmfYQWcw)
+# -- EN --
 # Weather App
 
 A simple Python app to get weather data using the OpenWeather API.
